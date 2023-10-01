@@ -11,6 +11,7 @@
 		F1D167E62AC6944C00BE3279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D167E52AC6944C00BE3279 /* ContentView.swift */; };
 		F1D167E82AC6944E00BE3279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D167E72AC6944E00BE3279 /* Assets.xcassets */; };
 		F1D167EB2AC6944E00BE3279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D167EA2AC6944E00BE3279 /* Preview Assets.xcassets */; };
+		F1D167F32AC694B500BE3279 /* Bagrile.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1D167F22AC694B500BE3279 /* Bagrile.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		F1D167E52AC6944C00BE3279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1D167E72AC6944E00BE3279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1D167EA2AC6944E00BE3279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1D167F22AC694B500BE3279 /* Bagrile.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bagrile.otf; sourceTree = "<group>"; };
+		F1D167F42AC9291600BE3279 /* Design-M1L7-CustomFonts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Design-M1L7-CustomFonts-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		F1D167E22AC6944C00BE3279 /* Design_M1L7_CustomFonts */ = {
 			isa = PBXGroup;
 			children = (
+				F1D167F42AC9291600BE3279 /* Design-M1L7-CustomFonts-Info.plist */,
+				F1D167F12AC6946D00BE3279 /* Fonts */,
 				F1D167E32AC6944C00BE3279 /* Design_M1L7_CustomFontsApp.swift */,
 				F1D167E52AC6944C00BE3279 /* ContentView.swift */,
 				F1D167E72AC6944E00BE3279 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				F1D167EA2AC6944E00BE3279 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1D167F12AC6946D00BE3279 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F1D167F22AC694B500BE3279 /* Bagrile.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D167F32AC694B500BE3279 /* Bagrile.otf in Resources */,
 				F1D167EB2AC6944E00BE3279 /* Preview Assets.xcassets in Resources */,
 				F1D167E82AC6944E00BE3279 /* Assets.xcassets in Resources */,
 			);
@@ -275,6 +289,7 @@
 				DEVELOPMENT_TEAM = 6W96N4J2BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Design-M1L7-CustomFonts-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +319,7 @@
 				DEVELOPMENT_TEAM = 6W96N4J2BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Design-M1L7-CustomFonts-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
